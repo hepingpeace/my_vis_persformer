@@ -8,11 +8,12 @@ import shutil
 import os
 from os import mkdir, write
 from tqdm import tqdm
-from os.path import ops
 from models.networks import Loss_crit
 from utils import eval_3D_lane
 from utils.utils import *
 from utils.Visualizer import *
+import os.path as ops
+
 
 from tensorboardX import SummaryWriter
 
